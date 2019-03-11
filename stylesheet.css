@@ -1,3 +1,61 @@
-body {
+body {}
+
+.box-1 {
+    height: 100px;
+    width: 100px;
+    border-radius: 75%;
     background-color: red;
+    transition-duration: 5s;
+    transition-timing-function: ease;
+    transition-delay: 1s;
+    transform: rotate(360deg)  translate(50px, 25px) scale(2) skewX(30deg);
+
+}
+
+.box-2 {
+    height: 100px;
+    width: 100px;
+    border-radius: 25%;
+    background-color: yellow;
+    transition-duration: 3s;
+    transition-timing-function: linear;
+    transition-delay: 2s;
+    transform: translate(50px, 25px) scale(1) skewX(0deg);
+
+}
+
+.box-3 {
+    height: 50px;
+    width: 70px;
+    border-radius: 80%;
+    background-color: paleturquoise;
+    transition-duration: 10s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+    transform: translate(50px, 25px) scale(1) skewX(100deg);
+
+}
+
+.box-4 {
+    height: 50px;
+    width: 70px;
+    border-radius: 80%;
+    background-color: darkred;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1s;
+    transform: translate(100px, 25px) scale(1) skewX(20deg);
+
+}
+
+.box-5 {
+    height: 50px;
+    width: 55px;
+    border-radius: 0%;
+    background-color: darkred;
+    transition-duration: 7s;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+    transform: translate(50x, 25px) scale(1) skewX(0deg);
+
 }
